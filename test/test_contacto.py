@@ -1,7 +1,3 @@
-import pytest
-import asyncio
-from playwright.sync_api import sync_playwright
-
 def test_mensaje_should_be_true_when_web_message_are_equals(page):
     page.goto("https://www.ucp.edu.ar/")
     page.click("text=Contacto")
